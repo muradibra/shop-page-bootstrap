@@ -1,0 +1,143 @@
+@media(min-width:375px) {
+    .container {
+        max-width: 351px;
+    }
+
+    .cards {
+        padding: 48px 0;
+    }
+}
+
+@media(min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px) {
+
+    .container {
+        max-width: 756px;
+    }
+
+}
+
+@media(min-width:992px) {
+
+    .container {
+        max-width: 980px;
+    }
+}
+
+@media(min-width:1200px) {
+
+    .container {
+        max-width: 1190px;
+    }
+
+    .bars-icon {
+        display: none;
+    }
+
+    nav {
+        width: 87%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul li {
+        padding: 8px;
+    }
+
+    li a {
+        color: rgba(0, 0, 0, 0.55);
+        transition: color 0.5s;
+    }
+
+    li a:hover {
+        color: #000;
+    }
+
+    #home {
+        color: #000;
+    }
+
+    .shop {
+        padding: 6px 12px;
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: 0.18s;
+
+    }
+
+    .shop a {
+        color: #000;
+        vertical-align: middle;
+    }
+
+    .shop a i {
+        color: #212529;
+        margin-right: 5px;
+    }
+
+    .shop span {
+        display: inline-block;
+        background-color: #212529;
+        color: #fff;
+        border-radius: 50%;
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .shop:hover {
+        background-color: #212529;
+    }
+
+    .shop:hover a {
+        color: #fff;
+    }
+
+    .shop:hover i {
+        color: #fff;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        display: none;
+        width: 150px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 10px;
+        color: #212529 ;
+    }
+    
+    .all-products {
+        padding-bottom: 10px;
+        border-bottom: 1px solid gray;
+    }
+
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+}
+
+@media(min-width:1400px) {
+
+    .container {
+        max-width: 1380px;
+    }
+
+}
