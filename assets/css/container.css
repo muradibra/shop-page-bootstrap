@@ -120,6 +120,8 @@
         width: 150px;
         border: 1px solid gray;
         border-radius: 5px;
+        z-index: 2;
+        background-color: #fff;
         margin-top: 10px;
         color: #212529 ;
     }
